@@ -1,0 +1,54 @@
+body { 
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#header{
+    width: 700px;
+    height: 82px;
+    background-color: bisque;
+    display: flex;
+    
+}
+#logo {
+    
+    width: 180px;
+    height: 82px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navegacao{
+    
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    
+}
+#navegacao ul {
+   
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+#navegacao ul li {
+    list-style: none;
+    height: 100%;
+    width: auto;
+    margin-left:10px;
+    margin-right:10px;
+    font-size: 20px;
+}
+#navegacao ul li a{
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+
+}
